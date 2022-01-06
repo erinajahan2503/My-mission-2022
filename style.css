@@ -1,0 +1,278 @@
+.start {
+  width: 1260px;
+  margin: auto;
+}
+
+
+.explore-button:hover {
+  background-image: linear-gradient(40deg, #3668c5, #260e57);
+  transition: 3s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.mission-content {
+  width: 60%;
+}
+
+.mission-image {
+  width: 60%;
+}
+
+.style-mission-text {
+  color: #3966bb;
+}
+.mission-h1 {
+  font-size: 60px;
+  border-left: 1px solid #511cbd;
+  border-width: 5px;
+  padding: 0 0 0 15px;
+  font-family: "Yeseva One", cursive;
+  margin-bottom: 30px;
+}
+
+
+
+.explore-button {
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+  color: #fff;
+  padding: 8px 12px;
+  background-image: linear-gradient(90deg, #0064ff, #511cbd);
+  border-radius: 5px;
+}
+
+.scroll {
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+}
+
+.mission-image img {
+  width: 80%;
+}
+
+
+.my-mission h1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-size: 45px;
+  font-family: "poppins", sans-serif;
+}
+
+.target {
+  display: flex;
+}
+
+.mission-card {
+  width: 33.3%;
+  padding: 25px;
+  background-color: antiquewhite;
+  margin: 25px;
+  border-radius: 20px;
+}
+
+.vission-card {
+  width: 33.3%;
+  padding: 25px;
+  background-color: rgb(215, 231, 250);
+  margin: 25px;
+  border-radius: 20px;
+}
+
+.goal-card {
+  width: 33.3%;
+  padding: 25px;
+  background-color: rgb(233, 215, 250);
+  margin: 25px;
+  border-radius: 20px;
+}
+
+.mission-card img {
+  width: 50%;
+}
+
+.vission-card img {
+  width: 50%;
+}
+
+.goal-card img {
+  width: 50%;
+}
+
+.mission-card h3 {
+  font-size: 21px;
+  font-family: "Poppins";
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.mission-card p {
+  font-family: "Poppins";
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.vission-card h3 {
+  font-size: 21px;
+  font-family: "Poppins";
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.vission-card p {
+  font-family: "Poppins";
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.goal-card h3 {
+  font-size: 21px;
+  font-family: "Poppins";
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.goal-card p {
+  font-family: "Poppins";
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+
+.study {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.develop-image img {
+  width: 100%;
+}
+
+.developer-image {
+  width: 80%;
+  position: relative;
+}
+
+.developer-content {
+  width: 70%;
+  padding-left: 100px;
+}
+
+.develop-content h1 {
+  font-family: "Poppins";
+  font-size: 50px;
+  line-height: 70px;
+  padding-bottom: 30px;
+}
+
+.develop-content p {
+  font-family: "Poppins";
+  width: 70%;
+  padding-bottom: 40px;
+}
+
+img.coding {
+  z-index: 1111;
+  position: relative;
+}
+
+img.shape-coding {
+  position: absolute;
+  width: 60%;
+  left: -25%;
+  top: 12%;
+}
+
+
+section.community {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+.shape-image {
+  position: absolute;
+  width: 45% !important;
+  right: -15%;
+  bottom: -14%;
+  z-index: -111;
+}
+
+.community-image img {
+  width: 100%;
+}
+
+.community-image {
+  width: 80%;
+  position: relative;
+}
+
+.community-content {
+  width: 60%;
+}
+
+.community-content h1 {
+  font-family: "Poppins";
+  font-size: 32px;
+  padding-bottom: 15px;
+}
+
+.community-content p {
+  font-family: "Poppins";
+  width: 60%;
+  padding-bottom: 25px;
+}
+
+
+.team-work {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+.community-image img {
+  width: 100%;
+  width: 50%;
+  position: relative;
+}
+.team content{
+  width: 60%;
+  font-family: "Poppins";
+  font-weight:400px ;
+  padding-bottom: 25px;
+}
+
+
+footer {
+  background-color: #000;
+  width: 100% !important;
+  height: 110px;
+  position: absolute;
+  left: 0;
+  padding-top: 20px;
+  margin-top: 45px;
+}
+
+footer h3 {
+  color: rgb(211, 136, 136);
+  text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: 33px;
+  letter-spacing: 3px;
+}
+
+p.footer-text {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Poppins";
+  font-size: 12px;
+  padding-top: 8px;
+}
+.footer-2022 {
+  color: #884dff;
+}
+
